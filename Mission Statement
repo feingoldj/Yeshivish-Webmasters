@@ -1,3 +1,20 @@
 Goal 1: To build a sleakly designed apple app to automate the process of
   1) sending and collecting RSVPs from a group of contacts, and
   2) declaring the meeting when the baseline number of RSVPs has been reached. 
+
+Should include:
+  - sleek app design
+  - RSVP counter / declaration function
+  - creation of groups with admin
+  - use of phone contacts
+  - relationship with phone clock
+  - send out RSVP alerts to members of the group
+  
+Goal 2: Feature of participants to select the series of timeslots that work best for them.
+        Should create broader picture of group availability. 
+
+Goal 3: Mission statement and objectives list for the group.
+
+Goal 4: Sharing documents among group.
+
+Goal 5: Chat among members of group. 
