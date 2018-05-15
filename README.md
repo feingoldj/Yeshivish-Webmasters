@@ -4,10 +4,8 @@
            -- think we should use an IDE
 - swift or objective-C?
 - what program should we use for tutorials? Treehouse?
-- which app are we building?
-
-
-- interaction between front + back ends?
+- should we all learn the same thing, or should we diversify?
+- interaction between front + back ends / how does designing the platform relate to building the function?
 
 Treehouse: username: jfeingo2@jhu.edu
            password: jfeingold
