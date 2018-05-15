@@ -5,3 +5,7 @@
 - what program should we use for tutorials?
 - which app are we building?
 - should we use Treehouse?
+- xCode as IDE?
+
+Treehouse: username: jfeingo2@jhu.edu
+           password: jfeingold
