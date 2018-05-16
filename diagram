@@ -1,0 +1,10 @@
+Goal 1:
+This is the functionality we want out of our app. The basic idea is that people will use it to facilitate group meetings 
+especially meetings where you want a minimum attendance (minyan?) 
+
+1) user can make an account
+2) admin can make a group of other users
+3) admin can make events for the group. set threshold attendance/time/place
+4) send out alerts to group members
+5) collect responses (repeat steps 4-5)
+6) declare meeting if threshold met
