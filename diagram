@@ -9,4 +9,9 @@ especially meetings where you want a minimum attendance (minyan?)
 5) collect responses (repeat steps 4-5)
 6) declare meeting if threshold met
 
-Whats the difference between users and admins? Shouldn't every user be able to make events? -Ben
+Whats the difference between users and admins? Shouldn't every user be able to make events? - Ben
+Each event itself will only have lmtd num of admins though (similar to whatsapp) - Max
+
+Do we need to have formal accounts (ie. login with username + password)for users/admins, or can we just have
+entering your name/email and then responding (like https://www.when2meet.com)? This might make the server
+aspect of the project easier but no clue. - Max -- Wouldn't work for reoccuring meetings, would it? - Jared
