@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD:Meeting/Meeting.xcodeproj/project.pbxproj
 		614464B720ACE5FC002C611B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614464B620ACE5FC002C611B /* AppDelegate.swift */; };
 		614464B920ACE5FC002C611B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614464B820ACE5FC002C611B /* ViewController.swift */; };
 		614464BC20ACE5FC002C611B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614464BA20ACE5FC002C611B /* Main.storyboard */; };
@@ -14,6 +15,16 @@
 		614464C120ACE5FD002C611B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614464BF20ACE5FD002C611B /* LaunchScreen.storyboard */; };
 		614464CC20ACE5FD002C611B /* MeetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614464CB20ACE5FD002C611B /* MeetingTests.swift */; };
 		614464D720ACE5FD002C611B /* MeetingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614464D620ACE5FD002C611B /* MeetingUITests.swift */; };
+=======
+		6144647D20AC9459002C611B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6144647C20AC9459002C611B /* AppDelegate.swift */; };
+		6144647F20AC9459002C611B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6144647E20AC9459002C611B /* ViewController.swift */; };
+		6144648220AC9459002C611B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6144648020AC9459002C611B /* Main.storyboard */; };
+		6144648420AC945B002C611B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6144648320AC945B002C611B /* Assets.xcassets */; };
+		6144648720AC945B002C611B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6144648520AC945B002C611B /* LaunchScreen.storyboard */; };
+		6144649220AC945B002C611B /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6144649120AC945B002C611B /* AppTests.swift */; };
+		6144649D20AC945B002C611B /* AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6144649C20AC945B002C611B /* AppUITests.swift */; };
+		74BADA7A20ACE3D7003C3F6D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BADA7920ACE3D7003C3F6D /* File.swift */; };
+>>>>>>> 50188dbc350d01ec15c3181568dd1beda6f4d34a:App.xcodeproj/project.pbxproj
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD:Meeting/Meeting.xcodeproj/project.pbxproj
 		614464B320ACE5FC002C611B /* Meeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		614464B620ACE5FC002C611B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		614464B820ACE5FC002C611B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,22 @@
 		614464D220ACE5FD002C611B /* MeetingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		614464D620ACE5FD002C611B /* MeetingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingUITests.swift; sourceTree = "<group>"; };
 		614464D820ACE5FD002C611B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+=======
+		6144647920AC9459002C611B /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6144647C20AC9459002C611B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6144647E20AC9459002C611B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6144648120AC9459002C611B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6144648320AC945B002C611B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6144648620AC945B002C611B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6144648820AC945B002C611B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6144648D20AC945B002C611B /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6144649120AC945B002C611B /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
+		6144649320AC945B002C611B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6144649820AC945B002C611B /* AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6144649C20AC945B002C611B /* AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests.swift; sourceTree = "<group>"; };
+		6144649E20AC945B002C611B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BADA7920ACE3D7003C3F6D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = Repo_Test/File.swift; sourceTree = SOURCE_ROOT; };
+>>>>>>> 50188dbc350d01ec15c3181568dd1beda6f4d34a:App.xcodeproj/project.pbxproj
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +125,22 @@
 		614464B520ACE5FC002C611B /* Meeting */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD:Meeting/Meeting.xcodeproj/project.pbxproj
 				614464B620ACE5FC002C611B /* AppDelegate.swift */,
 				614464B820ACE5FC002C611B /* ViewController.swift */,
 				614464BA20ACE5FC002C611B /* Main.storyboard */,
 				614464BD20ACE5FD002C611B /* Assets.xcassets */,
 				614464BF20ACE5FD002C611B /* LaunchScreen.storyboard */,
 				614464C220ACE5FD002C611B /* Info.plist */,
+=======
+				6144647C20AC9459002C611B /* AppDelegate.swift */,
+				6144647E20AC9459002C611B /* ViewController.swift */,
+				6144648020AC9459002C611B /* Main.storyboard */,
+				74BADA7920ACE3D7003C3F6D /* File.swift */,
+				6144648320AC945B002C611B /* Assets.xcassets */,
+				6144648520AC945B002C611B /* LaunchScreen.storyboard */,
+				6144648820AC945B002C611B /* Info.plist */,
+>>>>>>> 50188dbc350d01ec15c3181568dd1beda6f4d34a:App.xcodeproj/project.pbxproj
 			);
 			path = Meeting;
 			sourceTree = "<group>";
@@ -256,8 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD:Meeting/Meeting.xcodeproj/project.pbxproj
 				614464B920ACE5FC002C611B /* ViewController.swift in Sources */,
 				614464B720ACE5FC002C611B /* AppDelegate.swift in Sources */,
+=======
+				6144647F20AC9459002C611B /* ViewController.swift in Sources */,
+				74BADA7A20ACE3D7003C3F6D /* File.swift in Sources */,
+				6144647D20AC9459002C611B /* AppDelegate.swift in Sources */,
+>>>>>>> 50188dbc350d01ec15c3181568dd1beda6f4d34a:App.xcodeproj/project.pbxproj
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
