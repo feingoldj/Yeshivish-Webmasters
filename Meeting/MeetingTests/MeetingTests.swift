@@ -1,15 +1,15 @@
 //
-//  AppTests.swift
-//  AppTests
+//  MeetingTests.swift
+//  MeetingTests
 //
 //  Created by Ben Kaplan on 5/16/18.
 //  Copyright © 2018 Ben Kaplan. All rights reserved.
 //
 
 import XCTest
-@testable import App
+@testable import Meeting
 
-class AppTests: XCTestCase {
+class MeetingTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
