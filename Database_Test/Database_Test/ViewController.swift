@@ -28,7 +28,7 @@ class ViewController: UIViewController {
             print("Error creating table")
             return
         }
-        print("Everything is fine")
+        //print("Everything is fine")
     }
 
     override func didReceiveMemoryWarning() {

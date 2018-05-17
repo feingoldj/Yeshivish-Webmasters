@@ -14,6 +14,7 @@
 		74BADACC20AD0B9A003C3F6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BADACA20AD0B9A003C3F6D /* LaunchScreen.storyboard */; };
 		74BADAD720AD0B9A003C3F6D /* Database_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BADAD620AD0B9A003C3F6D /* Database_TestTests.swift */; };
 		74BADAE220AD0B9A003C3F6D /* Database_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BADAE120AD0B9A003C3F6D /* Database_TestUITests.swift */; };
+		74BADAF020AE1B1D003C3F6D /* RawCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BADAEF20AE1B1D003C3F6D /* RawCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		74BADADD20AD0B9A003C3F6D /* Database_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Database_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BADAE120AD0B9A003C3F6D /* Database_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database_TestUITests.swift; sourceTree = "<group>"; };
 		74BADAE320AD0B9A003C3F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BADAEF20AE1B1D003C3F6D /* RawCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				74BADAC120AD0B98003C3F6D /* AppDelegate.swift */,
 				74BADAC320AD0B98003C3F6D /* ViewController.swift */,
+				74BADAEF20AE1B1D003C3F6D /* RawCode.swift */,
 				74BADAC520AD0B98003C3F6D /* Main.storyboard */,
 				74BADAC820AD0B9A003C3F6D /* Assets.xcassets */,
 				74BADACA20AD0B9A003C3F6D /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				74BADAC420AD0B98003C3F6D /* ViewController.swift in Sources */,
 				74BADAC220AD0B98003C3F6D /* AppDelegate.swift in Sources */,
+				74BADAF020AE1B1D003C3F6D /* RawCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
