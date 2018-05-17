@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Repo_Test
 //
-//  Created by Jared Feingold on 5/16/18.
-//  Copyright © 2018 Jared Feingold. All rights reserved.
+//  Created by Ben Kaplan on 5/16/18.
+//  Copyright © 2018 Ben Kaplan. All rights reserved.
 //
 
 import UIKit
