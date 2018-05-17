@@ -13,7 +13,7 @@
         <!--Meeting Creater-->
         <scene sceneID="ZSB-yK-arM">
             <objects>
-                <viewController id="rXH-rX-jR4" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rXH-rX-jR4" customClass="ViewController" customModule="Repo_Test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wnd-HO-LHJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,6 +71,12 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Meeting Creater" id="ida-d1-wwn"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="m_name" destination="c20-cC-NC1" id="c8v-UX-38n"/>
+                        <outlet property="m_num" destination="cdZ-3D-bPv" id="PHd-Ba-YkX"/>
+                        <outlet property="m_time" destination="M6p-bf-Ons" id="bvV-P2-VWQ"/>
+                        <outlet property="sumbit" destination="fpU-6A-B5F" id="nVK-ED-gry"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ip4-Of-boO" sceneMemberID="firstResponder"/>
             </objects>
