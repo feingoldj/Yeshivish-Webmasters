@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				74BADA8620ACE44E003C3F6D /* Repo_Test */,
-				74BADA9B20ACE455003C3F6D /* Repo_TestTests */,
-				74BADAA620ACE455003C3F6D /* Repo_TestUITests */,
+				74BADA9B20ACE455003C3F6D /* Tests */,
+				74BADAA620ACE455003C3F6D /* UI_TESTS */,
 				74BADA8520ACE44E003C3F6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,22 +107,22 @@
 			path = Repo_Test;
 			sourceTree = "<group>";
 		};
-		74BADA9B20ACE455003C3F6D /* Repo_TestTests */ = {
+		74BADA9B20ACE455003C3F6D /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				74BADA9C20ACE455003C3F6D /* Repo_TestTests.swift */,
 				74BADA9E20ACE455003C3F6D /* Info.plist */,
 			);
-			path = Repo_TestTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		74BADAA620ACE455003C3F6D /* Repo_TestUITests */ = {
+		74BADAA620ACE455003C3F6D /* UI_TESTS */ = {
 			isa = PBXGroup;
 			children = (
 				74BADAA720ACE455003C3F6D /* Repo_TestUITests.swift */,
 				74BADAA920ACE455003C3F6D /* Info.plist */,
 			);
-			path = Repo_TestUITests;
+			path = UI_TESTS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
