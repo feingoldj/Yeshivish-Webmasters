@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         
         // create SQlite file
         let fileUrl = try!
-            FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent("database.sqlite")
+            FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent("mydatabase.db")
         if sqlite3_open(fileUrl.path, &db) != SQLITE_OK  {
             print("Error opening database")
             return
