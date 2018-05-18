@@ -15,3 +15,8 @@ Each event itself will only have lmtd num of admins though (similar to whatsapp)
 Do we need to have formal accounts (ie. login with username + password)for users/admins, or can we just have
 entering your name/email and then responding (like https://www.when2meet.com)? This might make the server
 aspect of the project easier but no clue. - Max -- Wouldn't work for reoccuring meetings, would it? - Jared
+
+It actually could work for reoccuring meetings. Realistically, we want to be affecting someones calendar on their phone,
+right? So, if you just have the meeting set to be reoccuring, it could contact whatever email account you have set up,
+and place that on its calendar. I think that's probably the best way to go about it. However, if we want to be sharing files,
+etc. through the app itself, then you want people to have accounts for sure. --DJ
