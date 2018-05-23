@@ -14,5 +14,11 @@ number of people are available to attend.
 We started learning how to code in Swift before running into a bunch of questions about databases and servers. 
 Do you have any advice about where to start?
 
+What type of database should we use?
+How should we integrate the database into Swift?
+What type of server should we use?
+What skills do we need other than Swift?
+How should we organizing a database to hold groups of users? 
+
 Best,
 Jared
