@@ -2,13 +2,13 @@ Dear Uncle Jason,
 
 A couple of friends and I are trying to build an iOS app. 
 
-The broad idea is to build a platform, geared toward college kids, to coordinate group projects. 
-As things stand, one club will use Whatapp, Google Docs, Where2meet, Doodle, and Trello etc. 
-We would like to have one space to chat and share docs, as well as some unique event scheduling / planning features. 
+The broad idea is to build a platform, geared toward college kids, to coordinate group projects. As things stand, 
+the members of a club will use Whatsapp, Google Docs, Where2meet, Doodle, and Trello etc. We would like to have one 
+space to chat and share docs, as well as some unique event scheduling / planning features. 
 
-Short term, we're focused on building a feature that allows an admin to create a group and then automate the process 
-of sending and collecting RSVPs. Once a certain baseline number of RSVPs have been collected, the feature should 
-automatically declare the meeting. We think this will be useful for regular meetings that only occur if a certain 
+Short term, we're focused on building a feature where an admin can create a group and then automate the process of 
+sending and collecting RSVPs. Once a certain baseline number of RSVPs have been collected, the feature should automatically 
+sent out a message to confirm the meeting. We think this will be useful for regular meetings that only occur if a certain 
 number of people are available to attend. 
 
 We started learning how to code in Swift before running into a bunch of questions about databases and servers. 
