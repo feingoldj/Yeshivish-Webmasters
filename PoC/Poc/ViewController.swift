@@ -12,7 +12,7 @@ import FirebaseDatabase
  
 class ViewController: UIViewController {
     
-//This is a test Max Jared DJ
+//DJ IS A BOSS
     
     var ref: DatabaseReference!
     
