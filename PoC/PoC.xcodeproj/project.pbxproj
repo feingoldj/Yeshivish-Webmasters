@@ -14,6 +14,7 @@
 		7458A6BA20B7021E00F5FE10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7458A6B820B7021E00F5FE10 /* LaunchScreen.storyboard */; };
 		7458A6C520B7021E00F5FE10 /* Saba_s_Pictures_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458A6C420B7021E00F5FE10 /* Saba_s_Pictures_PracticeTests.swift */; };
 		7458A6D020B7021F00F5FE10 /* Saba_s_Pictures_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458A6CF20B7021F00F5FE10 /* Saba_s_Pictures_PracticeUITests.swift */; };
+		7483E6CA20BF445900ECA535 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483E6C920BF445900ECA535 /* SecondViewController.swift */; };
 		74A21D4F20BB00370047D624 /* User Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A21D4E20BB00370047D624 /* User Class.swift */; };
 		74A21D8B20BB71CE0047D624 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74A21D8A20BB71CE0047D624 /* GoogleService-Info.plist */; };
 		74A21D8C20BB71CE0047D624 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74A21D8A20BB71CE0047D624 /* GoogleService-Info.plist */; };
@@ -58,6 +59,7 @@
 		7458A6CB20B7021E00F5FE10 /* PoCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7458A6CF20B7021F00F5FE10 /* Saba_s_Pictures_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saba_s_Pictures_PracticeUITests.swift; sourceTree = "<group>"; };
 		7458A6D120B7021F00F5FE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7483E6C920BF445900ECA535 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = SOURCE_ROOT; };
 		74A21D4E20BB00370047D624 /* User Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User Class.swift"; sourceTree = "<group>"; };
 		74A21D8A20BB71CE0047D624 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		74AF6D0020BB81B00031B97A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			children = (
 				7458A6AF20B7021700F5FE10 /* AppDelegate.swift */,
 				7458A6B120B7021700F5FE10 /* ViewController.swift */,
+				7483E6C920BF445900ECA535 /* SecondViewController.swift */,
 				7458A6B320B7021700F5FE10 /* Main.storyboard */,
 				7458A6B620B7021E00F5FE10 /* Assets.xcassets */,
 				7458A6B820B7021E00F5FE10 /* LaunchScreen.storyboard */,
@@ -394,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7483E6CA20BF445900ECA535 /* SecondViewController.swift in Sources */,
 				7458A6B220B7021700F5FE10 /* ViewController.swift in Sources */,
 				74A21D4F20BB00370047D624 /* User Class.swift in Sources */,
 				7458A6B020B7021700F5FE10 /* AppDelegate.swift in Sources */,

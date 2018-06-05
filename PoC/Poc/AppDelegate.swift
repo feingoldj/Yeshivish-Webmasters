@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Saba's Pictures Practice
+//  PoC
 //
 //  Created by Jared Feingold on 5/24/18.
 //  Copyright © 2018 Jared Feingold. All rights reserved.

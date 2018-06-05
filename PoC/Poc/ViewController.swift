@@ -1,6 +1,6 @@
  //
 //  ViewController.swift
-//  Saba's Pictures Practice
+//  PoC
 //
 //  Created by Jared Feingold on 5/24/18.
 //  Copyright © 2018 Jared Feingold. All rights reserved.
@@ -52,17 +52,30 @@ class ViewController: UIViewController {
         let u = User(usernameField.text!, passwordField.text!, groupsArray)
         //u.toString()
         
-        let uRef = ref.child(usernameField.text!)
+        //adds to firebase database
         
-        uRef.setValue(u.toAnyObject())
+        let refOne = ref.child("Users")
+        
+        let refTwo = refOne.child(usernameField.text!)
+        refTwo.setValue(u.toAnyObject())
+        
+        let refThree = refTwo.child("potatos")
+        refThree.setValue("potato: 2")
+        
+        //print database change to the consol
+        /*print("------------")
+        ref.observe(.value, with: { snapshot in
+            print(snapshot.value as Any)
+        })
+        print("------------")*/
         
         //add inputted user to userHolder
         userHolder.append(u)
         
         //print contents of userHolder
-        for items in userHolder {
+        /*for items in userHolder {
             print(items.toString())
-        }
+        }*/
         
         
         //clear text fields
@@ -70,8 +83,11 @@ class ViewController: UIViewController {
         passwordField.text = ""
         
         //print number of users in userHolder
-        print(userHolder.count)
-        print("--------------")
+        //print(userHolder.count)
+        //print("--------------")
+        
+        //transition to SecondViewController
+        //performSegue(withIdentifier: "Segue1", sender: self)
     }
     
 }
