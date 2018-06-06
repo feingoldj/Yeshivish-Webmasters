@@ -1,23 +1,14 @@
 //
-//  SecondViewController.swift
+//  GroupScreen.swift
 //  
 //
-//  Created by Jared Feingold on 5/30/18.
+//  Created by Jared Feingold on 6/5/18.
 //
 
-/*import UIKit
-import Firebase
-import FirebaseDatabase
+import UIKit
 
-class SecondViewController: UITableViewController {
+class GroupScreen: UIViewController {
 
-   
-    var totalUsers: [String] = []
-    let usersRef = Database.database().reference(withPath: "Users")
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -40,4 +31,4 @@ class SecondViewController: UITableViewController {
     }
     */
 
-}*/
+}

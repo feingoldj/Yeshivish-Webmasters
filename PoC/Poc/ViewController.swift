@@ -11,9 +11,7 @@ import Firebase
 import FirebaseDatabase
  
 class ViewController: UIViewController {
-    
-//DJ IS A BOSS
-    
+        
     var ref: DatabaseReference!
     
     
@@ -43,10 +41,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func enter(_ sender: Any) {
-        //let username = usernameField.text!
-        //let password = passwordField.text!
-        //print(username)
-        //print(password)
         
         let groupsArray: [String] = ["one","two"]
         let u = User(usernameField.text!, passwordField.text!, groupsArray)
@@ -61,33 +55,13 @@ class ViewController: UIViewController {
         
         let refThree = refTwo.child("potatos")
         refThree.setValue("potato: 2")
-        
-        //print database change to the consol
-        /*print("------------")
-        ref.observe(.value, with: { snapshot in
-            print(snapshot.value as Any)
-        })
-        print("------------")*/
-        
-        //add inputted user to userHolder
-        userHolder.append(u)
-        
-        //print contents of userHolder
-        /*for items in userHolder {
-            print(items.toString())
-        }*/
-        
-        
+
         //clear text fields
         usernameField.text = ""
         passwordField.text = ""
         
-        //print number of users in userHolder
-        //print(userHolder.count)
-        //print("--------------")
-        
         //transition to SecondViewController
-        //performSegue(withIdentifier: "Segue1", sender: self)
+        //performSegue(withIdentifier: "Seg1", sender: self)
     }
     
 }
@@ -100,11 +74,5 @@ class ViewController: UIViewController {
         textField.resignFirstResponder()
         return true
     }
-    //func textFieldDidBeginEditing(_ textField: UITextField) {
-      //  textField.text = ""
-    //}
-    
-    
-    
     
  }
