@@ -61,7 +61,7 @@ class ViewController: UIViewController {
         passwordField.text = ""
         
         //transition to SecondViewController
-        //performSegue(withIdentifier: "Seg1", sender: self)
+        performSegue(withIdentifier: "Seg1", sender: self)
         print("go")
     }
     

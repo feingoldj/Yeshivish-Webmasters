@@ -91,4 +91,11 @@ class MyGroupsTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBAction func button2(_ sender: Any) {
+       
+        performSegue(withIdentifier: "Seg2", sender: self)
+        
+    }
+    
 }
