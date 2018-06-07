@@ -62,6 +62,7 @@ class ViewController: UIViewController {
         
         //transition to SecondViewController
         //performSegue(withIdentifier: "Seg1", sender: self)
+        print("go")
     }
     
 }
