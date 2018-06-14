@@ -7,12 +7,40 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 class MyGroupsTableViewController: UITableViewController {
 
+    var user: User!
+    var userHolder: [User] = []
+    let ref = Database.database().reference(withPath: "Users")
+    
+    
+    //JARED: not sure what this does...
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        //JARED: not sure what this does...
+        tableView.allowsMultipleSelectionDuringEditing = false
+        
+        /*ref.queryOrdered(byChild: "Users").observe(.value, with: { snapshot in
+            var newUserHolder: [User] = []
+            for child in snapshot.children {
+                if let snapshot = child as? DataSnapshot,
+                    let thisUser = User(snapshot: snapshot) {
+                    newUserHolder.append(thisUser)
+                }
+            }
+            self.userHolder = newUserHolder
+            self.tableView.reloadData()
+        })*/
+    
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -28,8 +56,8 @@ class MyGroupsTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -37,15 +65,29 @@ class MyGroupsTableViewController: UITableViewController {
         return 0
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        
+        let cellIdentifier = "TableViewCell"
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? TableViewCell else {
+            fatalError("the dequeue cell is not an instance of TableViewCell")
+        }
+        
+        //"as" is an attempt to downcast the returned object from thge UITableViewCell to TableViewCell
+        //this returns an optional
+        //guard let unwraps the optional
 
-        // Configure the cell...
-
+        /*let meal = meals[indexPath.row]
+        
+        cell.nameLabel.text = meal.name
+        cell.photoImageView.image = meal.photo
+        cell.ratingControl.rating = meal.rating
+        */
+        
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
@@ -92,10 +134,9 @@ class MyGroupsTableViewController: UITableViewController {
     }
     */
     
-    @IBAction func button2(_ sender: Any) {
-       
-        performSegue(withIdentifier: "Seg2", sender: self)
-        
+    @IBAction func backButton(_ sender: Any) {
+        performSegue(withIdentifier: "Seg3", sender: self)
     }
+    
     
 }

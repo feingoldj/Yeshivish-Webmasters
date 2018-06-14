@@ -30,8 +30,6 @@ class GroupScreen: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    @IBAction func buttonTwo(_ sender: Any) {
-        performSegue(withIdentifier: "Seg2", sender: self)
-    }
+
     
 }

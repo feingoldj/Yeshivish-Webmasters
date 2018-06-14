@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741E305A20C9A4E900CDE6EB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741E305920C9A4E900CDE6EB /* TableViewCell.swift */; };
 		74215DB420C773830013A1D1 /* MyGroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74215DB320C773830013A1D1 /* MyGroupsTableViewController.swift */; };
 		74215DB820C7742A0013A1D1 /* GroupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74215DB720C7742A0013A1D1 /* GroupScreen.swift */; };
 		7458A6B020B7021700F5FE10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458A6AF20B7021700F5FE10 /* AppDelegate.swift */; };
@@ -47,6 +48,7 @@
 		1C51F79234D8CF127B08EE20 /* Pods-PoC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoC/Pods-PoC.debug.xcconfig"; sourceTree = "<group>"; };
 		41244CD2C15C305BA0643132 /* Pods-PoC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoC.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoC/Pods-PoC.release.xcconfig"; sourceTree = "<group>"; };
 		740D5BF7CA98E0D9E425E9C2 /* Pods-PoCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoCUITests/Pods-PoCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		741E305920C9A4E900CDE6EB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		74215DB320C773830013A1D1 /* MyGroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsTableViewController.swift; sourceTree = "<group>"; };
 		74215DB720C7742A0013A1D1 /* GroupScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupScreen.swift; sourceTree = SOURCE_ROOT; };
 		7458A6AC20B7021700F5FE10 /* PoC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +147,7 @@
 				7458A6B120B7021700F5FE10 /* ViewController.swift */,
 				74215DB320C773830013A1D1 /* MyGroupsTableViewController.swift */,
 				74215DB720C7742A0013A1D1 /* GroupScreen.swift */,
+				741E305920C9A4E900CDE6EB /* TableViewCell.swift */,
 				7458A6B320B7021700F5FE10 /* Main.storyboard */,
 				7458A6B620B7021E00F5FE10 /* Assets.xcassets */,
 				7458A6B820B7021E00F5FE10 /* LaunchScreen.storyboard */,
@@ -403,6 +406,7 @@
 				7458A6B220B7021700F5FE10 /* ViewController.swift in Sources */,
 				74215DB820C7742A0013A1D1 /* GroupScreen.swift in Sources */,
 				74A21D4F20BB00370047D624 /* User Class.swift in Sources */,
+				741E305A20C9A4E900CDE6EB /* TableViewCell.swift in Sources */,
 				7458A6B020B7021700F5FE10 /* AppDelegate.swift in Sources */,
 				74215DB420C773830013A1D1 /* MyGroupsTableViewController.swift in Sources */,
 			);
